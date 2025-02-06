@@ -11,3 +11,17 @@ const findStudent = (arrayData,studentName) =>{
 }
 
 findStudent(studentDatabase,"Pathu")
+
+
+const groceries = ["milk","bread","eggs","flour","choose","sugar"]
+
+
+const searchForItem = (item) => {
+    for(let i =0;i<groceries.length;i++){
+        if(groceries[i] === item){
+            console.log(`found ${item}`);
+        }
+    }
+}
+
+searchForItem('eggs')
